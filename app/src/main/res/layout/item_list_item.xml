@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/itemListLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:onClick="itemDone"
+    android:focusable="true">
+
+    <ImageView
+        android:id="@+id/itemListImageView"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/food" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/itemListItemNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="item name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/itemListItemTypeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="type of item" />
+
+        <TextView
+            android:id="@+id/itemListTimeOrdered"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="time ordered" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/itemListIsDoneTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:gravity="end"
+        android:text="ITEM DELIVERED"
+        android:textColor="@android:color/holo_green_dark"
+        android:visibility="invisible" />
+</LinearLayout>

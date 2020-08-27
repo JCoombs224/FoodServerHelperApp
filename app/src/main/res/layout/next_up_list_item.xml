@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nextUpListLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:onClick="itemDone">
+
+    <ImageView
+        android:id="@+id/nextUpListImageView"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/food" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nextUpListItemNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="item name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/nextUpListItemTypeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="type of item" />
+
+        <TextView
+            android:id="@+id/nextUpListTimeOrdered"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="time ordered" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nextUpListIsDoneTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:gravity="end"
+            android:text="ITEM DELIVERED"
+            android:textColor="@android:color/holo_green_dark"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/nextUpListTableNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_weight="1"
+            android:gravity="bottom|end"
+            android:text="table number" />
+    </LinearLayout>
+
+</LinearLayout>

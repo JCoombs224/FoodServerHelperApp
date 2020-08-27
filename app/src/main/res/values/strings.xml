@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Food Server Helper</string>
+    <string name="table_screen_title">All Open Tables</string>
+    <string name="add_table_button">Add New Table</string>
+    <string name="add_item_button">Add New Item</string>
+    <string name="next_up_button">NEXT UP</string>
+    <string name="next_up_screen_title">Items next up...</string>
+    <string name="items">Items</string>
+    <string name="close_table">Close table</string>
+    <string name="select_table">Select Table Number</string>
+    <string name="select_type">Select Item Type</string>
+    <string name="enter_name">Enter Item Name</string>
+    <string name="enter_number">Table Number</string>
+    <string name="enter_guests">Number of Guests</string>
+    <string name="enter_notes">Special Notes...</string>
+
+</resources>

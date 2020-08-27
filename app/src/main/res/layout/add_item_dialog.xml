@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/addItemNumberTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/select_table" />
+
+    <Spinner
+        android:id="@+id/tableNumberSpinner"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addItemNumberTextView"
+        android:layout_centerHorizontal="true"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:translationX="10dp" />
+
+    <TextView
+        android:id="@+id/addItemTypeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tableNumberSpinner"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/select_type" />
+
+    <Spinner
+        android:id="@+id/itemTypeSpinner"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addItemTypeTextView"
+        android:layout_centerHorizontal="true"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:translationX="10dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/itemTypeSpinner"
+        android:layout_centerHorizontal="true"
+        android:text="@string/enter_name" />
+
+    <EditText
+        android:id="@+id/itemNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="enter item name"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>

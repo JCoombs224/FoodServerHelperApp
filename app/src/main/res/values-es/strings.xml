@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Food Server Helper</string>
+    <string name="table_screen_title">Todas las mesas abiertas</string>
+    <string name="add_table_button">Añadir nueva mesa</string>
+    <string name="add_item_button">Agregar ítem nuevo</string>
+    <string name="next_up_button">SIGUIENTE UP</string>
+    <string name="next_up_screen_title">Los siguientes elementos ...</string>
+    <string name="items">Artículos</string>
+    <string name="close_table">Cerrar mesa</string>
+    <string name="select_table">Seleccionar número de tabla</string>
+    <string name="select_type">Seleccionar tipo de artículo</string>
+    <string name="enter_name">Ingrese el nombre del artículo</string>
+    <string name="enter_number">Numero de tabla</string>
+    <string name="enter_guests">Numero de invitados</string>
+    <string name="enter_notes">Notas especiales...</string>
+</resources>
